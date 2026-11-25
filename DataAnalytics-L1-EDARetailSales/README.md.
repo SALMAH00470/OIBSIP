@@ -1,0 +1,31 @@
+# Exploratory Data Analysis on Retail Sales Data
+
+**Intern: [Adams Salamatu]
+**Track: Data Analytics
+**Task:** Level 1, Task 1: EDA on Retail Sales Data
+**Internship: Oasis Infobyte (OIBSIP)
+
+## Project Overview
+An exploratory data analysis of a retail sales dataset (1,000 transactions from 2023) to uncover sales trends, customer behaviour and actionable business insights.
+
+## Dataset
+Retail Sales Dataset from Kaggle: [https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset]
+
+## Tools Used
+Python, pandas, matplotlib, seaborn, Jupyter Notebook
+
+## What the Notebook Covers
+- Data loading and initial inspection (shape, data types, null check)
+- Descriptive statistics (mean, median, mode, standard deviation)
+- Time series analysis (monthly and quarterly sales trends)
+- Customer demographics (age groups and gender)
+- Product category analysis (units sold and revenue)
+- Correlation heatmap
+- Additional analysis: revenue by age group and product category
+- Conclusion with business recommendations
+
+## Key Findings
+- Sales were volatile: May was the strongest month and September the weakest, with Q4 the strongest quarter and Q3 the weakest.
+- Electronics earned the most revenue, while Clothing sold the most units.
+- Price per Unit has the strongest link to revenue (correlation 0.85), while age has almost no link to total spending.
+- Age does affect what customers buy: for example, Clothing sells best to 26-35year-olds.
